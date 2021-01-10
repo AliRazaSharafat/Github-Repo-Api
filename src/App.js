@@ -28,6 +28,7 @@ function App() {
           <h3 key={i}><li style={{ textTransform: 'capitalize', listStyle: 'none' }}>{i+1} : {repo.name.replace(/-/g, ' ')}</li></h3>
         )
       })}
+      <span>Deployed</span>
     </div>
   );
 }
